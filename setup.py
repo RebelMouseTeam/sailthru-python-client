@@ -14,7 +14,7 @@ setup(name='sailthru-client',
         "Natural Language :: English",
     ],
     install_requires=[
-        'requests == v2.4.3.4',
+        'requests >= 2.4',
         'simplejson >= 3.0.7'
     ],
     keywords='sailthru api',
